@@ -63,4 +63,153 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+header {
+	margin: 5px;
+}
+
+.splash, .content, .footer {
+	margin: 40px;
+}
+
+nav {
+	text-align: center;
+	background: white;
+	width: 100%;
+	
+}
+
+nav a {
+	margin: 0 2%;
+	text-decoration: none;
+	color: grey;
+}
+
+nav img {
+	vertical-align: middle;
+	margin: 0 4%;
+}
+
+.splash {
+	text-align: center;
+}
+
+.splash h1 {
+	font-size: 64px;
+	font-weight: bolder;
+}
+
+.splash .col-2 {
+	margin: 20px;
+	border-bottom: 1px solid;
+	padding: 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.content .col-2 {
+	margin: 20px;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.col-2 .row {
+	
+	width: 49%;
+	vertical-align: middle;
+}
+
+.content .col-3 {
+	 margin: 20px;
+	 padding: 20px 0;
+	 border-bottom: 1px solid;
+	 display: flex;
+	 justify-content: space-evenly;
+}
+
+.col-3 .row {
+	
+	width: 33%;
+}
+
+.content img {
+	display: block;
+	margin: 0 auto;
+}
+
+.button {
+	border: 1px solid;
+	padding: 10px 30px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.button:hover {
+	background: black;
+	color:white;
+}
+
+.footer .col-3 {
+	margin: 20px;
+}
+
+
+.middle-img {
+	width: 97.75%;
+}
+
+.center {
+	text-align: center;
+}
+
+.container {
+	margin: 2%;
+}
+
+.header {
+	border-bottom: 1px solid;
+	margin: 2% 0;
+	padding: 10px;
+}
+
+.header img {
+	width: 100%;
+	padding-bottom: 2%;
+}
+
+.header h1 {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
+}
+
+.box {
+	border: 1px solid;
+	width: 48%;
+	background-color: lightgray;
+	padding: 20px;
+	margin: 1%;
+}
+
+.box button {
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 10px;
+}
+
+.panel {
+	width: 48%;
+}
